@@ -42,6 +42,8 @@ function startGame(){
       row.push(cardImg)
 
       let card = document.createElement('img')
+      card.id = r.toString() + '-' + c.toString()
+      card.src = cardImg + '.jpg'
     }
   }
 }
