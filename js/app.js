@@ -62,3 +62,7 @@ function hideCards() {
     }
   }
 }
+
+function selectCard() {
+  
+}
