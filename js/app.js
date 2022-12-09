@@ -33,3 +33,15 @@ function shuffleCards(){
   }
   console.log(cardSet)
 }
+
+function startGame(){
+  for (let r = 0; r < rows; r++){
+    let row = []
+    for (let c = 0; c < columns; c++){
+      let cardImg = cardSet.pop()
+      row.push(cardImg)
+
+      let card = document.createElement('img')
+    }
+  }
+}
