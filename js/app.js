@@ -14,3 +14,8 @@ let cardList = [
 
 let cardSet
 let board = []
+
+window.onload = function(){
+  shuffleCards()
+  startGame()
+}
