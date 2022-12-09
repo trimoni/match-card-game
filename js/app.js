@@ -3,5 +3,6 @@ let cardList = [
   'darkness',
   'double',
   'fairy',
+  'fighting',
   
 ]
