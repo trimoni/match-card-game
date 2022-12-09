@@ -72,6 +72,13 @@ function selectCard() {
       cardOneSelected = this
 
       let coords = cardOneSelected.id.split('-')
+      let r = parseInt(coords[0])
+      let c = parseInt(coords[1])
+
+      cardOneSelected.src = board[r][c] + '.jpeg'
+    }
+    else if (!cardTwoSelected && this != cardOneSelected){
+      
     }
   }
 }
