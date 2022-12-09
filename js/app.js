@@ -17,6 +17,9 @@ let board = []
 let rows = 4
 let columns = 5
 
+let cardOneSelected
+let cardTwoSelected
+
 window.onload = function(){
   shuffleCards()
   startGame()
@@ -65,6 +68,6 @@ function hideCards() {
 
 function selectCard() {
   if(this.src.includes('back')) {
-    
+
   }
 }
