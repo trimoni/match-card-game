@@ -9,5 +9,5 @@ let cardList = [
   'lightning',
   'metal',
   'psychic',
-  
+  'water' 
 ]
