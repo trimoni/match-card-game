@@ -29,4 +29,5 @@ function shuffleCards(){
     cardSet[i] = cardSet[j]
     cardSet[j] = temp
   }
+  console.log(cardSet)
 }
