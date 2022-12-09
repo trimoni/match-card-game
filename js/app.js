@@ -8,5 +8,6 @@ let cardList = [
   'grass',
   'lightning',
   'metal',
+  'psychic',
   
 ]
