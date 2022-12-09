@@ -85,6 +85,11 @@ function selectCard() {
       let c = parseInt(coords[1])
 
       cardTwoSelected.src = board[r][c] + '.jpeg'
+      setTimeout(update, 1000)
     }
   }
+}
+
+function update(){
+  
 }
