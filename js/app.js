@@ -68,6 +68,10 @@ function hideCards() {
 
 function selectCard() {
   if(this.src.includes('back')) {
+    if (!cardOneSelected) {
+      cardOneSelected = this
 
+      let coords = cardOneSelected.id.split('-')
+    }
   }
 }
