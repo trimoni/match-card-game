@@ -14,6 +14,8 @@ let cardList = [
 
 let cardSet
 let board = []
+let rows = 4
+let columns = 5
 
 window.onload = function(){
   shuffleCards()
