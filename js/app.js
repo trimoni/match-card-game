@@ -6,5 +6,6 @@ let cardList = [
   'fighting',
   'fire',
   'grass',
+  'lightning',
   
 ]
