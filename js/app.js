@@ -1,2 +1,4 @@
 let errors = 0
-let cardList = 
+let cardList = [
+  'darkness'
+]
