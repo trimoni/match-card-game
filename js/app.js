@@ -91,5 +91,10 @@ function selectCard() {
 }
 
 function update(){
-  
+  if(cardOneSelected.src != cardTwoSelected.src){
+    cardOneSelected.src = 'back.jpeg'
+    cardTwoSelected.src = 'back.jpeg'
+    errors += 1
+    document.getElementById('errors').innerText = errors
+  }
 }
