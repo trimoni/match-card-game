@@ -43,7 +43,7 @@ function startGame(){
 
       let card = document.createElement('img')
       card.id = r.toString() + '-' + c.toString()
-      card.src = cardImg + '.jpg'
+      card.src = cardImg + '.jpeg'
       card.classList.add('card')
       document.getElementById('board').append(card)
     }
