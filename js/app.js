@@ -4,5 +4,6 @@ let cardList = [
   'double',
   'fairy',
   'fighting',
+  'fire',
   
 ]
