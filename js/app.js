@@ -19,3 +19,7 @@ window.onload = function(){
   shuffleCards()
   startGame()
 }
+
+function shuffleCards(){
+  cardSet = cardList.concat(cardList) // two of each card
+}
