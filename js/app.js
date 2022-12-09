@@ -45,6 +45,7 @@ function startGame(){
       card.id = r.toString() + '-' + c.toString()
       card.src = cardImg + '.jpeg'
       card.classList.add('card')
+      card.addEventListener('click', selectCard)
       document.getElementById('board').append(card)
     }
     board.push(row)
