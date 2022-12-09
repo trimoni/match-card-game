@@ -78,7 +78,13 @@ function selectCard() {
       cardOneSelected.src = board[r][c] + '.jpeg'
     }
     else if (!cardTwoSelected && this != cardOneSelected){
-      
+      cardTwoSelected = this
+
+      let coords = cardTwoSelected.id.split('-')
+      let r = parseInt(coords[0])
+      let c = parseInt(coords[1])
+
+      cardTwoSelected.src = board[r][c] + '.jpeg'
     }
   }
 }
