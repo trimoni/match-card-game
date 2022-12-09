@@ -64,5 +64,7 @@ function hideCards() {
 }
 
 function selectCard() {
-  
+  if(this.src.includes('back')) {
+    
+  }
 }
