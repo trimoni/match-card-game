@@ -45,6 +45,7 @@ function startGame(){
       card.id = r.toString() + '-' + c.toString()
       card.src = cardImg + '.jpg'
       card.classList.add('card')
+      document.getElementById('board').append(card)
     }
   }
 }
