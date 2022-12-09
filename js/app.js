@@ -47,5 +47,7 @@ function startGame(){
       card.classList.add('card')
       document.getElementById('board').append(card)
     }
+    board.push(row)
   }
+  console.log(board)
 }
