@@ -11,3 +11,6 @@ let cardList = [
   'psychic',
   'water' 
 ]
+
+let cardSet
+let board = []
