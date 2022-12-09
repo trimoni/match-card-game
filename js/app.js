@@ -97,4 +97,7 @@ function update(){
     errors += 1
     document.getElementById('errors').innerText = errors
   }
+
+  cardOneSelected = null
+  cardTwoSelected = null
 }
