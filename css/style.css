@@ -12,3 +12,9 @@ body {
   background-color: green;
   border: 10px solid lightgray;
 }
+
+.card {
+  height: 128px;
+  width: 90px;
+  margin: 2.5px;
+}
